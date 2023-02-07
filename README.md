@@ -10,11 +10,11 @@
 
 ## Some Glance at the Website -
 
-![image](https://user-images.githubusercontent.com/69206138/217385861-8d981e42-cbe7-4173-b46d-bb9f8063696f.png)
 #### Home Page
+![image](https://user-images.githubusercontent.com/69206138/217385861-8d981e42-cbe7-4173-b46d-bb9f8063696f.png)
 
-![image](https://user-images.githubusercontent.com/69206138/217385926-02ff242e-ca45-4918-8dcc-4f1ba7e524f5.png)
 #### Subject Page
+![image](https://user-images.githubusercontent.com/69206138/217385926-02ff242e-ca45-4918-8dcc-4f1ba7e524f5.png)
 
-![image](https://user-images.githubusercontent.com/69206138/217386068-f555d9b9-d317-4a2f-bf95-f9b73e35333f.png)
 #### Book Search Page
+![image](https://user-images.githubusercontent.com/69206138/217386068-f555d9b9-d317-4a2f-bf95-f9b73e35333f.png)
