@@ -1,6 +1,6 @@
 # Fyle-App
 ## Functions of the app -
--- It is made on React.Js Framework and is hosted on Netlify ( URL - https://fyle-app.netlify.app/ ).
+--- It is made on React.Js Framework and is hosted on Netlify ( URL - https://fyle-app.netlify.app/ ).
 -- The home page of the Library app have a search box which allows us to search books by book title or author name.
 -- Not more than 10 search results are shown at a time.
 -- Pagination is introduced. A user can see the next set of result by clicking on the "Next" button and previous set of result by clicking on the "Prev" button.
