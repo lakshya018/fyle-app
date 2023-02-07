@@ -1,0 +1,25 @@
+.subject-search-bar{
+    width: 80%;
+    text-align: center;
+}
+.trending-subjects{
+    font-size: 1.5rem;
+}
+.subject-name{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.subject-name:hover{
+    color: teal;
+}
+
+@media (max-width: 768px) {
+    .subjects-list{
+        display: flex;
+        justify-content: center;
+    }
+    .subjects-list h3{
+        margin: 1rem 0.5rem;
+    }
+}

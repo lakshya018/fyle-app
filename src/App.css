@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+.App {
+  margin: 0.5rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.go-to-home{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  
+}
+.go-to-home button{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: none ;
+  background-color: teal;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+
+}
+@media (max-width:998px) {
+  html{
+    font-size: 90%;
+  }
+}
+
+@media (max-width:768px) {
+  html{
+    font-size: 80%;
+  }
+}
+
+@media (max-width:458px) {
+  html{
+    font-size: 70%;
+  }
+}

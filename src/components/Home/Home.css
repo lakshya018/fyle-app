@@ -1,0 +1,148 @@
+.home-container {
+    display: flex;
+}
+
+.subjects {
+    width: 25%;
+    /* background-color: rgba(255, 0, 0, 0.64); */
+    border-right: 1px solid grey;
+    height: 100vh;
+}
+
+.main-list {
+    width: 75%;
+    /* background-color: rgba(128, 0, 128, 0.503); */
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+}
+.books-table{
+    overflow-x: auto;
+}
+.books-search-bar {
+    margin: 1.5rem;
+    width: 25%;
+    text-align: center;
+}
+
+.books-search {
+    border-bottom: 1px solid grey;
+}
+
+.books-container {
+    margin: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+
+    padding: 8px;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 128, 128, 0.3);
+}
+
+tr:hover {
+    background-color: rgba(0, 128, 128, 0.5);
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #04AA6D; */
+    /* color: white; */
+}
+
+.pages {
+    margin: 0rem 1rem;
+}
+
+.pagination {
+    margin: 1rem 0rem;
+    text-align: right;
+    width: 90%;
+}
+
+.prev-btn {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid teal;
+    border-radius: 0.2rem;
+    color: teal;
+    cursor: pointer;
+}
+
+.next-btn {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid teal;
+    background-color: teal;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.prev-btn:hover {
+    color: rgb(4, 77, 77);
+}
+
+.next-btn:hover {
+    background-color: rgb(4, 77, 77);
+}
+.search-anything{
+    font-size: 1.5rem;
+}
+.books-search-heading{
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem;
+}
+@media (max-width:768px) {
+    .home-container{
+        flex-direction: column;
+    }
+    .subjects{
+        height: 10vh;
+        width: 100%;
+        border: none;
+        text-align: center;
+        justify-content: center;
+    }
+    .main-list{
+        margin: 5rem 0rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .books-search-bar{
+        width: 80%;
+      
+    }
+    .search-bar{
+        padding: 0.8rem 1.6rem;
+    }
+    table{
+        width: 100%;
+    }
+}

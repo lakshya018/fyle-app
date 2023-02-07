@@ -1,0 +1,10 @@
+.current-subject{
+    border-bottom: 1px solid grey;
+}
+.current-subject h1{
+    margin: 1.5rem;
+}
+.subject-table{
+    margin: 1.5rem;
+    overflow-x: auto;
+}
